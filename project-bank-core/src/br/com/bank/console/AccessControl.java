@@ -20,7 +20,7 @@ public class AccessControl {
 	public void validarAcesso(int pass) throws TipoPessoaException, IsAtivoExeption {		
 		MenuConsole console = new MenuConsole();
 		
-		if(pass == 123) {
+		if(pass == 111) {
 			console.menu(console.opcoesMenu());
 		}else {	
 			tentativas++;
